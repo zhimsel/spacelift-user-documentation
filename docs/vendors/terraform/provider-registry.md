@@ -21,6 +21,9 @@ We will also focus on providing step-by-step instructions for [GitHub Actions](h
 
 Last but not least, we assume you're going to use GoReleaser to build your provider. This is by far the most common way of managing Terraform providers which need to be available for different operating systems and architectures. If you're not familiar with GoReleaser, please refer to the [official documentation](https://goreleaser.com/){: rel="nofollow"}. You can also check out Terraform's official [`terraform-provider-scaffolding` template repository](https://github.com/hashicorp/terraform-provider-scaffolding){: rel="nofollow"} for an example of using GoReleaser with Terraform providers.
 
+!!! tip
+    If you use another tool than GoReleaser, please check [the requirements for preparing a release](https://developer.hashicorp.com/terraform/registry/providers/publishing#manually-preparing-a-release){: rel="nofollow"} and implement them with your favorite tool.
+
 ### Creating a provider
 
 To create a provider in Spacelift, you have three options:
